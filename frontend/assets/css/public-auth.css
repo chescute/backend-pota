@@ -25,7 +25,10 @@ body.page-reset-password textarea,
 body.page-buyer-registry button,
 body.page-buyer-registry input,
 body.page-buyer-registry textarea,
-body.page-home button {
+body.page-home button,
+body.page-home input,
+body.page-home select,
+body.page-home textarea {
   font-family: inherit;
 }
 

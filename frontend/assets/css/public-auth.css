@@ -51,6 +51,11 @@ body.page-home :is(a, button, input, select, textarea):focus-visible {
   outline-offset: 2px;
 }
 
+body.page-index :is(a, button, input, select, textarea):focus-visible,
+body.page-home :is(a, button, input, select, textarea):focus-visible {
+  outline-color: var(--white);
+}
+
 body.page-index .landing-card-layout,
 body.page-login .login-card,
 body.page-forgot-password .landing-card-layout,

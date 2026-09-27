@@ -118,3 +118,16 @@ def create_admin():
 
 if __name__ == "__main__":
  create_admin() 
+from src.models.farmers import Farmer
+from src.models.buyers import Buyer
+from src.models.buyer_registry import BuyerRegistry
+from src.models.buyer_status import BuyerStatus
+from src.models.alert_threshold_configs import AlertThresholdConfig
+from src.models.etl_run_log import ETLRunLog
+from src.models.forecasts import Forecast
+from src.models.market_price import MarketPrice
+from src.models.market_price_forecast import MarketPriceForecast
+from src.models.offtake_requests import OfftakeRequest
+from src.models.planting_intents import PlantingIntent
+from src.models.price_data import PriceData
+from src.models.report_planting_intents import ReportPlantingIntent

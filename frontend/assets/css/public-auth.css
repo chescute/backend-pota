@@ -315,9 +315,9 @@ body.page-reset-password .brand-word {
 }
 
 body.page-reset-password .message.success {
-  background: var(--pastel-green-bg);
-  border: 1px solid var(--status-confirmed);
-  border-radius: var(--radius-sm);
+  background: rgba(91, 107, 79, 0.12);
+  border: 1px solid var(--green);
+  border-radius: 8px;
   color: var(--green);
   padding: 10px 14px;
 }

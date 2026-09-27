@@ -130,10 +130,16 @@ function showErrorState(sectionKey, message = 'Something went wrong loading this
   if (messageElement) messageElement.textContent = message;
 }
 
+const initShellIcons = initIcons;
+const initShellSidebar = initSidebar;
+const initShellNotifDropdown = initNotifDropdown;
+const initShellDialogListeners = initDialogListeners;
+const initShellDrawerListeners = initDrawerListeners;
+
 document.addEventListener('DOMContentLoaded', () => {
-  initIcons();
-  initSidebar();
-  initNotifDropdown();
-  initDialogListeners();
-  initDrawerListeners();
+  initShellIcons();
+  initShellSidebar();
+  initShellNotifDropdown();
+  initShellDialogListeners();
+  initShellDrawerListeners();
 });

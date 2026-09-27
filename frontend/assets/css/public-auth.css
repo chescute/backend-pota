@@ -59,7 +59,6 @@ body.page-home :is(a, button, input, select, textarea):focus-visible {
 body.page-index .landing-card-layout,
 body.page-login .login-card,
 body.page-forgot-password .landing-card-layout,
-body.page-reset-password .page-inner,
 body.page-buyer-registry .page-inner,
 body.page-home .feature-card,
 body.page-home .step-card {

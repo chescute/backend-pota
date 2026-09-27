@@ -318,8 +318,7 @@ body.page-reset-password .message.success {
 body.page-reset-password .message.error,
 body.page-login .form-status.error,
 body.page-forgot-password .field input.invalid,
-body.page-reset-password .field input.invalid,
-body.page-buyer-registry .remove-file-btn {
+body.page-reset-password .field input.invalid {
   color: var(--status-rejected);
   border-color: var(--status-rejected);
 }

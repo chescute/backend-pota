@@ -317,6 +317,7 @@ body.page-reset-password .message.success {
 
 body.page-reset-password .message.error,
 body.page-login .form-status.error {
+  background: var(--pastel-red-bg);
   color: var(--status-rejected);
   border-color: var(--status-rejected);
 }

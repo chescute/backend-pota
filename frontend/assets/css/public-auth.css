@@ -41,12 +41,12 @@ body.page-home a {
   text-underline-offset: 0.18em;
 }
 
-body.page-index :focus-visible,
-body.page-login :focus-visible,
-body.page-forgot-password :focus-visible,
-body.page-reset-password :focus-visible,
-body.page-buyer-registry :focus-visible,
-body.page-home :focus-visible {
+body.page-index :is(a, button, input, select, textarea):focus-visible,
+body.page-login :is(a, button, input, select, textarea):focus-visible,
+body.page-forgot-password :is(a, button, input, select, textarea):focus-visible,
+body.page-reset-password :is(a, button, input, select, textarea):focus-visible,
+body.page-buyer-registry :is(a, button, input, select, textarea):focus-visible,
+body.page-home :is(a, button, input, select, textarea):focus-visible {
   outline: 3px solid var(--green-dark);
   outline-offset: 2px;
 }
@@ -316,10 +316,13 @@ body.page-reset-password .message.success {
 }
 
 body.page-reset-password .message.error,
-body.page-login .form-status.error,
+body.page-login .form-status.error {
+  color: var(--status-rejected);
+  border-color: var(--status-rejected);
+}
+
 body.page-forgot-password .field input.invalid,
 body.page-reset-password .field input.invalid {
-  color: var(--status-rejected);
   border-color: var(--status-rejected);
 }
 

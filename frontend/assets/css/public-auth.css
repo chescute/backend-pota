@@ -395,7 +395,7 @@ body.page-home .dot.active {
   background: var(--gold);
 }
 
-body.page-home footer span {
+body.page-home footer .footer-highlight {
   color: var(--white);
 }
 

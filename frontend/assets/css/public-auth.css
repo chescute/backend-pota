@@ -300,8 +300,7 @@ body.page-reset-password .frame {
   background: linear-gradient(180deg, var(--green), var(--green-dark));
 }
 
-body.page-reset-password .page-inner,
-body.page-buyer-registry .page-inner {
+body.page-reset-password .page-inner {
   background: var(--cream);
   border-radius: 24px;
 }
@@ -329,10 +328,6 @@ body.page-login .form-status.error {
 body.page-forgot-password .field input.invalid,
 body.page-reset-password .field input.invalid {
   border-color: var(--status-rejected);
-}
-
-body.page-buyer-registry .page-inner {
-  border-color: var(--border);
 }
 
 body.page-buyer-registry .card h1 {

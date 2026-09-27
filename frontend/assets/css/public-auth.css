@@ -317,11 +317,13 @@ body.page-reset-password .brand-word {
 }
 
 body.page-reset-password .message.success {
+  display: block;
   color: var(--green);
 }
 
 body.page-reset-password .message.error,
 body.page-login .form-status.error {
+  display: block;
   background: var(--pastel-red-bg);
   color: var(--status-rejected);
   border-color: var(--status-rejected);

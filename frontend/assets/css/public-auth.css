@@ -347,11 +347,6 @@ body.page-buyer-registry .form-error {
   color: var(--status-rejected);
 }
 
-body.page-home {
-  background: url("../../images/esakabg2.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
 body.page-home .slide-header p {
   color: var(--white);
 }

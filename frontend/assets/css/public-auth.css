@@ -240,11 +240,6 @@ body.page-buyer-registry .modal-ok:hover {
   box-shadow: 0 10px 22px rgba(73, 90, 63, 0.24);
 }
 
-body.page-login .branding .name,
-body.page-reset-password .brand-word {
-  font-family: "Dancing Script", cursive;
-}
-
 body.page-login .branding .name {
   color: var(--cream);
   text-shadow: 0 6px 18px rgba(46, 42, 34, 0.20);
